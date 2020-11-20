@@ -94,17 +94,6 @@ public class Parchment implements ActionListener{
       frame.setVisible(true); //making the frame visible on screen
     }
     
-    private void setTheme(){
-      Color c2=new Color(253,137,159);
-      Font font=new Font("Lucida Console",Font.PLAIN,14); //creating a new font
-      text.setFont(font); //changing the font of JTextArea
-      text.setForeground(c2);
-      Color c1=new Color(43,53,74);
-      
-      text.setBackground(c1);
-      frame.setBackground(c2);
-    }
-    
     public void actionPerformed(ActionEvent e){
         
         String st=e.getActionCommand(); //returns the command string associated with the action
